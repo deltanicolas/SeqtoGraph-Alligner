@@ -218,4 +218,6 @@ Alternative π₁ = s → v1 → v2 → t (labels: AGCT) costs 6 (Section 4.7).
 
 ## 📝 Author & Acknowledgments
 
+### - Nicolas Chines
+
 Developed as a project for the Bioinformatics university course. The scoring matrix is based on the course materials provided for the 2026 session.

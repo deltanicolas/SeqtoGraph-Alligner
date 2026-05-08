@@ -176,19 +176,6 @@ Lines starting with `#` are ignored.
 
 ---
 
-## Extending the aligner
-
-- **Affine gap penalties** (Gotoh-style): add two extra DP states (`in-gap-ins`,
-  `in-gap-del`).  Complexity stays O(k(n+m)).
-- **Arbitrary scoring matrices**: replace `DEFAULT_SCORES` with BLOSUM62, PAM, etc.
-- **Semi-global alignment**: modify boundary conditions so that the read can be
-  placed anywhere in the graph (useful for short-read mapping).
-- **Local alignment** (Smith–Waterman on DAG): clamp negative values to 0.
-- **Multi-source graphs**: list all sources in `"source": [...]`; they are all
-  connected to `ε` automatically.
-
----
-
 ## Example
 
 ```

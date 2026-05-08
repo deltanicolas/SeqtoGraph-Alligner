@@ -108,12 +108,9 @@ python main.py -g examples/example.json -s AGT --no-color
 ```bash
 python app.py
 ```
+## TUI Preview
 
-| Key | Action |
-|-----|--------|
-| `Ctrl+R` | Run alignment |
-| `Ctrl+L` | Clear log |
-| `Ctrl+Q` | Quit |
+![Sequence-to-Graph Aligner TUI](docs/tui.png)
 
 ---
 

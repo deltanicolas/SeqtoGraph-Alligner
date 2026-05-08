@@ -42,7 +42,7 @@ D[i, v] = min {
 
 ---
 
-## Default scoring matrix (Section 2.2 of the paper)
+## Default scoring matrix
 
 |   | A | C | G | T |
 |---|---|---|---|---|
@@ -72,7 +72,7 @@ Python 3.10+ required.  No other third-party dependencies.
 ### CLI
 
 ```bash
-# JSON graph + inline query (reproduces paper Section 4)
+# JSON graph + inline query 
 python main.py -g examples/example.json -s AGT
 
 # JSON graph + FASTA query, print full DP table

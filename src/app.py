@@ -1,23 +1,4 @@
-#!/usr/bin/env python3
-"""
-app.py – Interactive TUI for the Sequence-to-Graph aligner.
 
-Built with the Textual framework.  Layout:
-
-  ┌─ Header ───────────────────────────────────────────────┐
-  │  Sequence-to-Graph Aligner                             │
-  ├─ Sidebar ──┬─ Main panel ───────────────────────────── │
-  │  Graph     │  [Tabs: DP Table | Alignment | About]      │
-  │  Sequence  │                                            │
-  │  Gap / Mtx │                                            │
-  │  [Align]   │                                            │
-  ├────────────┴───────────────────────────────────────────┤
-  │  Log                                                    │
-  └────────────────────────────────────────────────────────┘
-
-Run:
-    python app.py
-"""
 from __future__ import annotations
 
 import sys
